@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { Button, buttonVariants } from "@/components/ui/button"
+import Grid from "@/components/Grid/Grid"
 
 export default function IndexPage() {
   return (
@@ -34,6 +35,9 @@ export default function IndexPage() {
           GitHub
         </Link>
         <Button>hi</Button>
+      </div>
+      <div>
+        <Grid />
       </div>
     </section>
   )
